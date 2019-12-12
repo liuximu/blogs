@@ -1,0 +1,9 @@
+{
+  "name": "gitbook-plugin-ximu-foot",
+  "version": "1.0.7",
+  "description": "gitbook plugin page footer",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">=3.0.0-pre.0"
+  }
+}
