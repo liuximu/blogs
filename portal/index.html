@@ -1,150 +1,205 @@
-<!doctype html> <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>熙穆·和顺</title>
-	<meta name="keywords" content="熙穆,博客,程序员,熙穆·和顺">
-	<meta name="description" content="个人技术博客，分享学习。">
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>熙穆·和顺</title>
+        <meta name="keywords" content="熙穆,博客,程序员,熙穆·和顺">
+        <meta name="description" content="个人技术博客，分享学习。">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+            .bd-placeholder-img {
+                font-size: 2.125rem;
+                text-anchor: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
 
-    <link href="https://getbootstrap.com/docs/4.3/examples/carousel/">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+            @media (min-width: 768px) {
+                .bd-placeholder-img-lg {
+                    font-size: 2.5rem;
+                }
+            }
 
+            .mynav{
+                background-color: #f8f7f5;
+            }
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
+            .featurette-divider {
+              margin: 4rem 0; /* Space out the Bootstrap <hr> more */
+            }
+            
+            .thumbnail {
+                display: block;
+                padding: 4px;
+                margin-bottom: 20px;
+                line-height: 1.42857143;
+                background-color: #fff;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                -webkit-transition: border .2s ease-in-out;
+                -o-transition: border .2s ease-in-out;
+                transition: border .2s ease-in-out;
+                height:300px;
+                text-align: center;
+            }
+            
+            .thumbnail .caption {
+                height: 200px;
+                overflow-y: hidden;
+                color: rgb(85, 85, 85);
+                padding: 9px;
+                color: #333;
+            }
+            
+            .thumbnail a {
+                color: #337ab7;
+                text-decoration: none;
+            }
+            
+            .back-to-top{
+                padding: 4px 10px;
+                margin-top: 10px;
+                margin-left: 10px;
+                font-size: 12px;
+                font-weight: 500;
+                color: #999;
+            }
+        </style>
+        <!-- Custom styles for this template -->
+    </head>
+    <body>
+        <main role="main">
+            <div class="mynav">
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <div class="row">
+                        <div class="col-lg-5 col-md-4 col-sm-4 col-xs-4"></div>
+                        <div class="col-lg-2 col-md-4 col-sm-4 col-xs-4">
+                            <img src="me.jpg" alt="..." class="rounded-circle border- border-primary rounded-sm" style="width:100%">
+                        </div>
+                    </div>
+                    <h3>关于我</h3>
+                    <script type="text/javascript">
+                        list = [{
+                            classes: "spinner-grow text-primary"
+                        }, //{classes:"spinner-grow text-secondary"},
+                        {
+                            classes: "spinner-grow text-success"
+                        }, {
+                            classes: "spinner-grow text-danger"
+                        }, {
+                            classes: "spinner-grow text-warning"
+                        }, //{classes:"spinner-grow text-info"},
+                        //{classes:"spinner-grow text-dark"},
+                        ];
+                        for (i = 0; i < list.length; i++) {
+                            one = '<div class="' + list[i].classes + '" role="status">' + '<span class="sr-only">Loading...</span>' + '</div>'
 
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-  </head>
-  <body>
-
-<main role="main">
-
-  <div class="container marketing">
-
-    <div class="row featurette">
-      <div class="col-12">
-  <h1>刘青·技术博客</h1>
-          </div>
-    </div>
-  <hr>
-
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-12 col-sm-12 text-center">
-        <img src="me.jpg" alt="..." class="rounded-circle border- border-primary- rounded-sm" style="width:20%">
-
-
-        <h3>关于我</h3>
-
-    <div class="spinner-grow text-primary" role="status">
-  <span class="sr-only">Loading...</span>
-</div>
-<div class="spinner-grow text-secondary" role="status">
-  <span class="sr-only">Loading...</span>
-</div>
-<div class="spinner-grow text-success" role="status">
-  <span class="sr-only">Loading...</span>
-</div>
-<div class="spinner-grow text-danger" role="status">
-  <span class="sr-only">Loading...</span>
-</div>
-<div class="spinner-grow text-warning" role="status">
-  <span class="sr-only">Loading...</span>
-</div>
-<div class="spinner-grow text-info" role="status">
-  <span class="sr-only">Loading...</span>
-</div>
-<!-- <div class="spinner-grow text-light" role="status">
-  <span class="sr-only">Loading...</span>
-</div> -->
-<div class="spinner-grow text-dark" role="status">
-  <span class="sr-only">Loading...</span>
-</div>
-
-        <p>流量转发方向，互联网协议相关</p>
-        <p>编程爱好者，课题式持续学习计算机科学</p>
-        <p>愿景清晰，持续精进</p>
-      </div><!-- /.col-lg-4 -->
-
-
-
-    </div><!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette ">
-      <div class="col-md-7">
-        <h2 class="featurette-heading"> 编程语言GO </h2>
-        <p class="lead">golang是一门新兴的语言, 本书深入浅出的给大家介绍golang的发展过程</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 1500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x2500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
-
-
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-right"><a href="#">顶部</a></p>
-    <p>&copy; 2017-2019 Person. &middot; <a href="mailto:295421489@qq.com">Email</a></p>
-
-
-
-  </footer>
-</main>
-
-
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+                            document.write(one);
+                        }
+                    </script>
+                    <p>智人：愿景清晰，持续精进</p>
+                    <p>社会人：贪则多失，忿则多难，急则多蹶</p>
+                    <p>攻城狮：流量转发方向，互联网协议相关，了解规则</p>
+                    <p>技师：认真的模仿，归纳，总结，以及长时间高强度的反复练习</p>
+                </div>
+                <!-- /.col-lg-4 -->
+                <hr class="featurette-divider">
+            </div>
+            <!-- /.row -->
+            <!-- START THE FEATURETTES -->
+            <div class="container">
+                <div class="row featurette">
+                    <script type="text/javascript">
+                        t1 = ' 快思考就是本能，快，但是不一定对。 ' + ' 慢思考就是逻辑，更系统，但是太慢。 ' + ' 认真思考某种情况该怎么做才是平衡之道 '
+                        list = [{
+                            title: "编程语言GO",
+                            color: "#007bff",
+                            textColor: "#fff",
+                            descript: "golang是一门新兴的语言, 这个课题其实很深入，作者尝试记录自己的学习过程，让大家更容易的了解这门语言",
+                            href: "#"
+                        }, {
+                            title: "网络协议和转发",
+                            color: "#6c757d",
+                            textColor: "#fff",
+                            descript: "互联网转发和协议相关，而协议又种类繁杂，持续研究。",
+                            href: "#"
+                        }, {
+                            title: "源码分析",
+                            color: "#17a2b8",
+                            textColor: "#fff",
+                            descript: "gin",
+                            href: "#"
+                        }, {
+                            title: "数据结构和算法",
+                            color: "#28a745",
+                            textColor: "#fff",
+                            descript: "工程师不能不了解的基本数据结构和算法了。",
+                            href: "#",
+                            imageTitle: "Algorithm"
+                        }, {
+                            title: "十万个怎么办！",
+                            color: "#dc3545",
+                            textColor: "#fff",
+                            descript: t1,
+                            href: "#",
+                            imageTitle: "I Wonder HOW!"
+                        }, {
+                            title: "其他",
+                            color: "#ffc107",
+                            textColor: "#fff",
+                            descript: "其他，重要的，但是当前不是重点的。",
+                            href: "#"
+                        }, ];
+                        for (i = 0; i < list.length; i++) {
+                            one= '' +
+                                '<div class="col-sm-12 col-md-6 col-lg-4 ">' +
+                                    '<div class="thumbnail">' +
+                                        '<a href="'+list[i].href+'">'+
+                                            '<svg class="bd-placeholder-img bd-placeholder-img-lg img-fluid mx-auto" width="100%" height="150" xmlns="http://www.w3.org/2000/svg" ' +
+                                                ' preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: '+ list[i].title +'">' +
+                                                '<title>' + list[i].title + '</title>' +
+                                                '<rect width="100%" height="100%" fill="'+ list[i].color +'"/>' +
+                                                '<text x="50%" y="50%" fill="'+ list[i].textColor +'" dy=".2em">' +
+                                                    (list[i].imageTitle ? list[i].imageTitle : list[i].title) +
+                                                '</text>' +
+                                            '</svg>' +
+                                    '</a>' +
+                                            '<div class="caption">' +
+                                    '<a href="'+list[i].href+'">'+
+                                                '<h3>' + list[i].title + '</h3>' +
+                                    '</a>' +
+                                                '<p>' + list[i].descript + '</p>' +
+                                            '</div>' +
+                                        '</div>' +
+                                    '</a>' +
+                                '</div>';
+                            document.write(one);
+                        }
+                    </script>
+                </div>
+                <!-- /END THE FEATURETTES -->
+            </div>
+            <!-- /.container -->
+            <!-- FOOTER -->
+            <hr style="margin-top: 4rem">
+            <footer class="container">
+                <p class="float-right back-to-top">
+                    <a href="#">回到顶部</a>
+                </p>
+                <p>
+                    contact me:
+        <a href="mailto:295421489@qq.com">email</a>
+                    |
+        <a href="https://github.com/liuximu">github</a>
+                </p>
+            </footer>
+        </main>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>
+
