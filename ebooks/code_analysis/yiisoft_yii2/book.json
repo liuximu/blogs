@@ -1,0 +1,16 @@
+{
+    "author": "刘青, http://liuximu.com",
+    "description": "yii2框架源码分析",
+    "plugins": [
+        "highlight",
+        "codesnippet",
+        "splitter",
+        "ximu-foot",
+        "pageview-count",
+        "expandable-chapters",
+        "anchor-navigation-ex",
+        "-sharing",
+        "-livereload"
+    ],
+    "root": "../../../php/code_analysis/yii2"
+}

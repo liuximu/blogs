@@ -15,12 +15,12 @@ const pageFooter = module.exports = {
 	hooks: {
 		'page:before': function (page) {
             if( page.content.indexOf("<!--")  != 0) {
-                return page.content
+                return page
             }
 
             i = page.content.indexOf("-->");
             if (i == -1) {
-                return page.content
+                return page
             }
 
             comment = page.content.substr(4, i-4);
