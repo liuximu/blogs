@@ -1,6 +1,6 @@
 {
     "author": "刘青, http://liuximu.com",
-    "description": "YII2 源码分析",
+    "description": "go编程语言",
     "plugins": [
         "highlight",
         "codesnippet",

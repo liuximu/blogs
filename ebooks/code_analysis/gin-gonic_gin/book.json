@@ -1,6 +1,6 @@
 {
     "author": "刘青, http://liuximu.com",
-    "description": "gin 框架源码分析",
+    "description": "gin框架 源码分析",
     "plugins": [
         "highlight",
         "codesnippet",
@@ -12,5 +12,8 @@
         "-sharing",
         "-livereload"
     ],
-    "root": "../../../golang/code_analysis/gin-gonic_gin/"
+    "root": "content/",
+    "language": "zh-hans",
+    "structure": {
+    }
 }

@@ -32,3 +32,5 @@
 /app/logs/*
 
 node_modules
+_book
+portal/ebooks

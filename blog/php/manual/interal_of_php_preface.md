@@ -7,6 +7,7 @@ category: php/manual
 status: draft
 summary: 
 -->
+
 PHP简单么？我想挺简单的。我花了一周的时间了解语法就可以开始开发了。PHP难么？我想挺难的。直到现在，我都觉得PHP我还没有入门。尝试阅读官方手册的[高级部分](http://php.net/manual/en/internals2.php)，坚持。
 
 ###大概的内容

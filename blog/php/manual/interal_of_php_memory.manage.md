@@ -21,6 +21,7 @@ Zend 引擎中的内存管理真的很简单。所有的内容就是一些API及
 PHP的内存管理API看起来有点像libc的malloc实现。
 
 主要的内存API：
+
 | 原型      |     描述|
 | :-------- | --------|
 | void *emalloc(size_t size)|分配size位的内存 |

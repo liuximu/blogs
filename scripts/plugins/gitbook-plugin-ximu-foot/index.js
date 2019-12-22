@@ -42,16 +42,24 @@ const pageFooter = module.exports = {
 
             page.content = page.content.substr(i+3);
 
+            source = ""
+            if(configOption.source) {
+                source = '<span style="float:left"> <a herf="' + configOption.source + '">译·原文</a></span>'
+            }
 			const htmlContents = '\n\n'+
             '<footer class="footer">' +
                 '<div class="footer__container--normal" alt="">' +
                     '<div class="footer__description--normal">'+
                         '<p class="paragraph footer__author--normal" style="color: #000 !important;"></p>' +
-                           '<p style="text-align: right">' +
+                           '<p>' +
+                                source +
+                                '<span style="float: right">' +
                                    ' By ' + 
                                    configOption.author +
                                    ' <br>At ' + 
                                    configOption.date + 
+                                   ' <br><a href="http://liuximu.com">熙穆·和顺</a> ' + 
+                                '</span>' +
                            '</p>' +
                         '</p>' +
                     '</div>' +

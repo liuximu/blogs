@@ -10,6 +10,8 @@ type: translate
 source: http://martinfowler.com/articles/injection.html
 -->
 
+[原文](http://martinfowler.com/articles/injection.html)
+
 创建一个将不同项目的组件整合到一个混合项目的轻量级的容器在Java社区中十分急迫。这些容器的背后是一个公共 的模式：如何将各个组件拼接——常常被称为`控制反转`。在这篇文章中我深入探讨这个模式的内部原理，重点在`依赖注入`，并和`服务定位器`进行对比。比起到底选谁，使用时单独配置的原则更重要。
 
 -------------

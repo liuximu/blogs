@@ -1,4 +1,4 @@
-:!--
+<!--
 author: 刘青
 date: 2016-06-01
 title: Shell脚本学习指南笔记
@@ -7,6 +7,7 @@ category: linux
 status: publish
 summary:
 -->
+
 ##准备工作
 
 ###软件工具的原则

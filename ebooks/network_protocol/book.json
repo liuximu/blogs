@@ -1,6 +1,6 @@
 {
     "author": "刘青, http://liuximu.com",
-    "description": "YII2 源码分析",
+    "description": "网络协议研究",
     "plugins": [
         "highlight",
         "codesnippet",
@@ -14,5 +14,6 @@
     ],
     "root": "content/",
     "language": "zh-hans",
-    "structure": { }
+    "structure": {
+    }
 }
